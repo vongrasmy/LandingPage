@@ -1,3 +1,7 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
 .header{
     display: flex;
     background-color: #1f2937;
@@ -13,7 +17,7 @@
 }
 .links{
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     font-size: 18px;
     color: #E5E7EB;
     
@@ -36,3 +40,52 @@ a {
     align-items: center;
     gap: 16px;
   }
+
+
+  .header-content{
+    display: flex;
+    background-color: #1f2937;
+    align-content: center;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .header-content-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+  }
+
+  .header-content-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    
+  }
+.header-content-left{
+    
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.header-content-button{
+    background-color: #3882F6;
+    border:none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+
+.header-content-right{
+    flex-direction: column;
+    
+   
+}
+.header-content-placeholder{
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    
+}
