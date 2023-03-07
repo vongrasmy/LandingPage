@@ -8,12 +8,12 @@ body{
     color: #E5E7EB;
     font-size: 24px;
     justify-content: space-between;
-    padding: 16px;
+    
     
 }
 .header_text{
     font-weight: bold;
-    padding-left: 150px;
+    padding-left: 200px;
 }
 .links{
     display: flex;
@@ -26,7 +26,7 @@ ul{
     display: flex;
     gap: 8px;
     list-style-type: none;
-    padding-right: 150px;
+    padding-right: 200px;
 }
 
 a {
@@ -46,26 +46,34 @@ a {
     display: flex;
     background-color: #1f2937;
     align-content: center;
-    gap: 16px;
-    padding: 16px;
+    
+    
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .header-content-text{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    height: 100px;
+    width: 400px;
+    margin-bottom: 20px;
   }
 
   .header-content-subtext{
     font-size: 18px;
     color: #E5E7EB;
+    height: 100px;
+    width: 425px;
+    margin-bottom: 20px;
     
   }
 .header-content-left{
     
     flex-direction: column;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+   
     
 }
 
@@ -79,13 +87,66 @@ a {
 
 
 .header-content-right{
-    flex-direction: column;
-    
+  align-content:center;
+  padding-right: 200px;
    
 }
 .header-content-placeholder{
-    background-color: gray;
+    
     height: 400px;
     width: 400px;
+    display: flex;
     
+    float: right;
+   
+    
+}
+
+.main-content{
+  margin-bottom: 50px;
+}
+.main-content-header{
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.main-content-images{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+.pyramid-one,.pyramid-two,.pyramid-three,.pyramid-four{
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border-color: #3882F6;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.main-content-text{
+  width: 200px;
+}
+
+.quote-section{
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote{
+  font-size: 36px;
+  font-style: italic;
+  padding: 100px 200px 30px 200px;
+}
+
+.pharoh{
+  font-weight: bold;
+  text-align: right;
+  padding: 0px 200px 50px;
 }
