@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 24px;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+.header_text{
+    font-weight: bold;
+    padding-left: 150px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+ul{
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    padding-right: 150px;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+
+  .header_text, .links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
